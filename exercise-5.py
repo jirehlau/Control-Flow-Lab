@@ -12,3 +12,17 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+
+term = 0
+term1 = 1
+
+while term1 < 50:
+    term = term1
+    term1 = term + term1
+    print(term1)
+
+# sum_so_far = 0
+
+# for t in terms:
+#     sum_so_far += t, t
+# print(sum_so_far)
