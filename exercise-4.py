@@ -12,3 +12,15 @@
 #      isosceles - two sides are the same length
 # 3. Print a message such as:
 #      - A triangle with sides of <a>, <b> & <c> is a <type of triangle> triangle
+
+a = input("Enter the lengths of three side of a triangle")
+b = input("Enter the lengths of three side of a triangle")
+c = input("Enter the lengths of three side of a triangle")
+
+if a == b and a == c and b == c :
+    print("A triangle with sides of {a}, {b}, and {c} is an equalateral triangle")
+elif a == b and not a == c and not b == c:
+    print("A triangle with sides of {a}, {b}, and {c} is an unequal triangle")
+else:
+    print("A triangle with sides of {a}, {b}, and {c} is an isosceles triangle")
+
