@@ -14,6 +14,6 @@
 letter = input("Please enter a letter from the alphabet (a-z or A-Z)")
 
 if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
-    print("the letter {letter} is a vowel")
+    print(f"the letter {letter} is a vowel")
 else:
-    print("The letter {letter} is a consonant")
+    print(f"The letter {letter} is a consonant")
