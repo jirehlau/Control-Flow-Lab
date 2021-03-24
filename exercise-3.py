@@ -12,10 +12,13 @@
 # Hint:  Use the int() function to convert the string returned from input() into an integer
 
 
+# dogsAge = input("Input a dog's age in human years")
+# age = 0
+# if dogsAge <= 2:
+#     dogsAge = humageAge * 10
+# else:
+#     dogsAge = humageAge * 7
+# print("The dog's age in dog years is {dogsAge}")
+
+
 dogsAge = input("Input a dog's age in human years")
-age = 0
-if dogsAge <= 2:
-    dogsAge = humageAge * 10
-else:
-    dogsAge = humageAge * 7
-print("The dog's age in dog years is {dogsAge}")
