@@ -21,6 +21,7 @@ while term1 < 50:
     term1 = term + term1
     print(term1)
 
+
 # sum_so_far = 0
 
 # for t in terms:
